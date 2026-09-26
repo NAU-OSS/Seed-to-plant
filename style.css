@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFDD0; /* Soft cream */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#main-header {
+  background-color: #2E8B57; /* Dark green */
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+#main-header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+nav {
+  background-color: #90EE90; /* Light green */
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #2E8B57; /* Dark green */
+  padding: 10px 15px;
+  display: block;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+section {
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Colors */
+#introduction {
+  background-color: #FFFFE0; /* Pale yellow */
+}
+
+#growth-stages {
+  background-color: #D2B48C; /* Light brown */
+}
+
+#plant-needs {
+  background-color: #90EE90; /* Light green */
+}
+
+#plant-parts {
+  background-color: #FFDAB9; /* Soft orange */
+}
+
+#fun-fact {
+  background-color: #C8F0C8; /* Another light green */
+}
+
+section h2 {
+  font-size: 2.2rem;
+  color: #2E8B57; /* Dark green */
+  margin-bottom: 20px;
+}
+
+section p,
+section ul {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+section ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+section ul li strong {
+  color: #008000; /* A slightly different green for emphasis */
+}
+
+/* Important facts boxes (articles within plant-parts) */
+#plant-parts article {
+  background-color: #ADD8E6; /* Light blue to stand out */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.08);
+}
+
+#plant-parts article h3 {
+  color: #1976D2; /* A shade of blue for the article headings */
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+/* New styling for Plant Vocabulary section and its cards */
+#plant-vocabulary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Creates a responsive grid of cards */
+  gap: 20px; /* Space between the cards */
+  background-color: #FFFFE0; /* Pale yellow background for the section */
+}
+
+#plant-vocabulary h2 {
+  grid-column: 1 / -1; /* Makes the heading span all columns in the grid */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#plant-vocabulary article {
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px; /* Ensures all cards are a similar height */
+}
+
+/* Unique background colors for each vocabulary card */
+#plant-vocabulary article:nth-of-type(1) {
+  background-color: #D2B48C; /* Light brown */
+}
+
+#plant-vocabulary article:nth-of-type(2) {
+  background-color: #90EE90; /* Light green */
+}
+
+#plant-vocabulary article:nth-of-type(3) {
+  background-color: #FFDAB9; /* Soft orange */
+}
+
+#plant-vocabulary article:nth-of-type(4) {
+  background-color: #C8F0C8; /* Another light green */
+}
+
+#plant-vocabulary article:nth-of-type(5) {
+  background-color: #ADD8E6; /* Light blue */
+}
+
+#plant-vocabulary article h3 {
+  font-size: 1.8rem;
+  color: #2E8B57;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#plant-vocabulary article p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0;
+}
