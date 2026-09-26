@@ -50,6 +50,14 @@ Seed-to-Plant currently includes:
 
 
 
+\## Image Attribution
+
+
+
+The plant growth illustration in this repository is an AI-generated original image created for this project.
+
+
+
 \## Technologies Used
 
 
