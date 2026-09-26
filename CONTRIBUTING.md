@@ -6,47 +6,7 @@ Thank you for your interest in contributing to Seed-to-Plant.
 
 
 
-This project is intended to be a welcoming educational resource for students, educators, and developers. Contributions that improve the educational content, accessibility, design, documentation, or functionality are encouraged.
-
-
-
-\## Ways to Contribute
-
-
-
-You can contribute by:
-
-
-
-\- Improving scientific explanations
-
-\- Correcting unclear or inaccurate content
-
-\- Improving accessibility
-
-\- Improving mobile responsiveness
-
-\- Adding new educational activities
-
-\- Improving the visual design
-
-\- Fixing bugs
-
-\- Improving documentation
-
-\- Suggesting new plant science topics or vocabulary
-
-
-
-\## Before You Start
-
-
-
-Before making a large change, please open a GitHub Issue describing what you would like to change and why.
-
-
-
-Small fixes, such as correcting a typo or improving wording, can be submitted directly through a pull request.
+This project is intended to be a welcoming educational resource for students, educators, developers, and first-time open source contributors. Contributions that improve the educational content, accessibility, design, documentation, or functionality are encouraged.
 
 
 
@@ -54,17 +14,185 @@ Small fixes, such as correcting a typo or improving wording, can be submitted di
 
 
 
+You can contribute by:
+
+
+
+\- Reporting bugs
+
+\- Suggesting new features
+
+\- Improving educational content
+
+\- Improving accessibility
+
+\- Improving the visual design
+
+\- Improving mobile responsiveness
+
+\- Fixing code or layout issues
+
+\- Improving documentation
+
+
+
+For larger changes, please open an issue first so the idea can be discussed before significant work begins.
+
+
+
+To contribute code:
+
+
+
 1\. Fork the repository.
 
 2\. Create a new branch for your changes.
 
-3\. Make and test your changes.
+3\. Make your changes.
 
-4\. Commit your work with a clear commit message.
+4\. Test the website locally.
 
-5\. Push your branch to your fork.
+5\. Commit your changes with a clear commit message.
 
-6\. Open a pull request describing what you changed and why.
+6\. Push your branch to your fork.
+
+7\. Open a pull request describing what you changed and why.
+
+
+
+\## Code Style and Formatting
+
+
+
+Please keep the existing project structure and formatting consistent.
+
+
+
+When editing HTML:
+
+
+
+\- Use clear indentation.
+
+\- Keep section names and element IDs descriptive.
+
+\- Use semantic HTML where possible.
+
+\- Avoid unnecessary inline styles.
+
+
+
+When editing CSS:
+
+
+
+\- Keep related styles grouped together.
+
+\- Use readable property formatting.
+
+\- Reuse existing colors and design patterns when possible.
+
+\- Avoid adding unnecessary or duplicate styles.
+
+
+
+\## Testing Requirements
+
+
+
+Before submitting a pull request:
+
+
+
+\- Open `index.html` in a modern web browser.
+
+\- Make sure the page loads without broken content.
+
+\- Check that navigation links work correctly.
+
+\- Check that the plant image displays properly.
+
+\- Check that vocabulary sections can be opened and read.
+
+\- Make sure your changes do not break the existing layout.
+
+
+
+If your changes affect the visual design, test the page at more than one browser window size when possible.
+
+
+
+\## Documentation Standards
+
+
+
+Documentation should be clear and easy to understand.
+
+
+
+When changing project behavior or adding a new feature:
+
+
+
+\- Update the README if the change affects setup or usage.
+
+\- Add comments only when they help explain code that may otherwise be unclear.
+
+\- Use simple and direct language.
+
+\- Keep educational explanations appropriate for the intended student audience.
+
+
+
+\## Reporting Bugs
+
+
+
+If you find a bug, open a GitHub Issue.
+
+
+
+Please include:
+
+
+
+\- A clear description of the problem
+
+\- Steps to reproduce it
+
+\- What you expected to happen
+
+\- What actually happened
+
+\- Screenshots if they help explain the issue
+
+\- Browser information when relevant
+
+
+
+\## Proposing New Features
+
+
+
+New feature ideas are welcome.
+
+
+
+Open a GitHub Issue and explain:
+
+
+
+\- What you would like to add
+
+\- Why it would improve the project
+
+\- Who would benefit from it
+
+\- How you think it could work
+
+
+
+Examples include new educational topics, interactive activities, accessibility improvements, or teacher resources.
 
 
 
@@ -76,43 +204,47 @@ Please keep pull requests focused on one main change.
 
 
 
-When opening a pull request:
+A pull request should:
 
 
 
-\- Clearly describe the purpose of the change.
+\- Clearly explain the purpose of the change
 
-\- Explain any educational or design decisions when relevant.
+\- Describe what was modified
 
-\- Include screenshots if the visual appearance has changed.
+\- Include screenshots for major visual changes
 
-\- Make sure the website still opens correctly in a browser.
+\- Confirm that the website was tested
 
-\- Check that existing content has not been unintentionally removed or broken.
-
-
-
-\## Educational Content
+\- Avoid unrelated changes
 
 
 
-Changes to educational content should be clear, age-appropriate, and scientifically accurate.
+\## Community Guidelines
 
 
 
-If you add or significantly revise scientific information, include a reliable source when possible so that the content can be reviewed.
+Contributors are expected to communicate respectfully and constructively.
 
 
 
-\## Respectful Collaboration
+Please:
 
 
 
-Contributors are expected to communicate respectfully and provide constructive feedback.
+\- Be patient with new contributors
+
+\- Give feedback about the work, not the person
+
+\- Respect different ideas and experience levels
+
+\- Avoid hostile or insulting language
+
+\- Help maintain a welcoming learning environment
 
 
 
-Please also follow the project's `CODE\_OF\_CONDUCT.md`.
+All contributors should also follow the project's `CODE\_OF\_CONDUCT.md`.
 
 
 
